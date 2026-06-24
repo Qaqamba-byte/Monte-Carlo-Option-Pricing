@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# -----------------------
 # Parameters
 # -----------------------
 S0 = 100
@@ -22,7 +21,7 @@ paths = np.zeros((days, num_paths))
 
 # -----------------------
 # Simulation loop
-# -----------------------
+
 for j in range(num_paths):
     prices = [S0]
 
